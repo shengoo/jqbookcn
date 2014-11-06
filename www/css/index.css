@@ -27,3 +27,7 @@ a{
 .ui-btn{
     font-size: 1em;
 }
+
+.ui-listview > li h1, .ui-listview > li h2, .ui-listview > li h3, .ui-listview > li h4, .ui-listview > li h5, .ui-listview > li h6 {
+    margin-bottom: 0;
+}

@@ -75,7 +75,7 @@ em.optional{color: #999;}
 	 width:inherit!important;
 }
 #content{
-	width: 680px!important;
+	/*width: 680px!important;*/
 	padding:0 10px!important;
 }
 #content h4 strong{
