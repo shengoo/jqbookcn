@@ -44,7 +44,7 @@
             <div data-role="collapsible" data-collapsed="false" data-filter="true" data-input="#rich-autocomplete-input">
                 <h2>核心</h2>
                 <ul data-role="listview" data-filter="true" data-input="#rich-autocomplete-input">
-                    <li><a href="jQuery_selector_context.html" data-transition="slide">jQuery([sel,[context]])</a></li>
+                    <li><a href="jQuery_selector_context.html">jQuery([sel,[context]])</a></li>
                     <li><a href="jQuery_html_ownerDocument.html">jQuery(html,[ownerDoc])<sup>1.8*</sup></a></li>
                     <li><a href="jQuery_callback.html">jQuery(callback)</a></li>
                     <li><a href="jQuery.holdReady.html">jQuery.holdReady(hold)<sup>1.6+</sup></a></li>
@@ -69,7 +69,7 @@
             <div data-role="collapsible" data-collapsed="false" data-filter="true" data-input="#rich-autocomplete-input">
                 <h2>属性</h2>
                 <ul data-role="listview" data-filter="true" data-input="#rich-autocomplete-input">
-                    <li><a href="#attr.html" title="attr(name|properties|key,value|fn)">attr(name|pro|key,val|fn)</a></li>
+                    <li><a href="attr.html" title="attr(name|properties|key,value|fn)">attr(name|pro|key,val|fn)</a></li>
                     <li><a href="removeAttr.html">removeAttr(name)</a></li>
                     <li><a href="prop.html" title="prop(name|properties|key,value|fn)">prop(n|p|k,v|f)<sup>1.6+</sup></a></li>
                     <li><a href="removeProp.html">removeProp(name)<sup>1.6+</sup></a></li>
@@ -440,7 +440,7 @@
                         <li data-role="collapsible" data-collapsed="false">
                             <h3>jQuery 核心函数</h3>
                             <ul>
-                                <li><a href="jQuery_selector_context.html" data-transition="slide">jQuery([sel,[context]])</a>
+                                <li><a href="jQuery_selector_context.html">jQuery([sel,[context]])</a>
                                 <li><a href="jQuery_html_ownerDocument.html">jQuery(html,[ownerDoc])</a><sup>1.8*</sup></li>
                                 <li><a href="jQuery_callback.html">jQuery(callback)</a></li>
                                 <li><a href="jQuery.holdReady.html">jQuery.holdReady(hold)</a></li>
@@ -1081,8 +1081,8 @@
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
-        </div><!-- /footer -->
-    </div><!-- /page -->
+        </div>
+    </div>
 
     
 
@@ -1105,6 +1105,7 @@
                 });
                 $(":header",element).attr("data-filtertext",alltxt);
             });
+            $("a[href!='#']").attr("data-transition", "slide");
         });
 
 //        $.when(deviceReadyDeferred, jqmReadyDeferred).then(doWhenBothFrameworksLoaded);
