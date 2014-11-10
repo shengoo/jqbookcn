@@ -1,6 +1,8 @@
 jqbookcn
 ========
 
+Play https://play.google.com/store/apps/details?id=com.sheng00.jqbook
+
 jquery api book app in Chinese
 
 html app using cordova + jquery mobile
