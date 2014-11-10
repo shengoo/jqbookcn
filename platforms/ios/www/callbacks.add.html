@@ -1,0 +1,80 @@
+<div id="content" data-role="page">
+  <div data-role="header" data-position="fixed">
+    <h1>callbacks.add(callbacks)</h1>
+    <a href="#home" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse">Left</a>
+  </div><!-- /header -->
+  <div role="main" class="ui-content">
+
+
+
+
+  <div rel="callbacks.add">
+    <h2><span>返回值:undefined</span>callbacks.add(callbacks)</h2>
+    <h3>概述</h3>
+    <div class="desc">
+      <p> 回调列表中添加一个回调或回调的集合。 </p>
+      <div class="longdesc">
+        <p></p>
+      </div>
+    </div>
+    <h3>参数</h3>
+    <div class="parameter">
+      <h4><strong>callbacks </strong><em>V1.7</em></h4>
+      <p> 一个函数，或者一个函数数组用来添加到回调列表。 .</p>
+    </div>
+    <div class="example">
+      <h3>示例</h3>
+      <span id="f_ad2"></span>
+      <h4>描述:</h4>
+      <p>使用 callbacks.add() 添加新的回调到回调列表：</p>
+      <h5>jQuery 代码:</h5>
+      <pre><code>// a sample logging function to be added to a callbacks list
+var foo = function( value ){
+    console.log( 'foo:' + value );
+}
+
+// another function to also be added to the list
+var bar = function( value ){
+    console.log( 'bar:' + value );
+}
+
+var callbacks = $.Callbacks();
+
+// add the function 'foo' to the list
+callbacks.add( foo );
+
+// fire the items on the list
+callbacks.fire( 'hello' );  
+// outputs: 'foo: hello'
+
+// add the function 'bar' to the list
+callbacks.add( bar );
+
+// fire the items on the list again
+callbacks.fire( 'world' );  
+
+// outputs:
+// 'foo: world'
+// 'bar: world'</code></pre>
+    </div>
+  </div>
+
+
+
+  </div>
+
+  <div data-role="footer" data-position="fixed">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- responsive -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-7178664821856375"
+         data-ad-slot="3920198225"
+         data-ad-format="auto"></ins>
+    <script>
+      window.setTimeout(function(){
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      }, 200);
+    </script>
+  </div>
+</div>

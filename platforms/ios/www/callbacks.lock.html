@@ -1,0 +1,69 @@
+<div id="content" data-role="page">
+  <div data-role="header" data-position="fixed">
+    <h1>callbacks.lock()</h1>
+    <a href="#home" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse">Left</a>
+  </div><!-- /header -->
+  <div role="main" class="ui-content">
+
+
+
+
+  <div rel="callbacks.lock">
+    <h2><span>返回值:undefined</span>callbacks.lock()</h2>
+    <h3><em>V1.7</em>概述</h3>
+    <div class="desc">
+      <p> 锁定在其当前状态的回调列表。 </p>
+      <div class="longdesc">
+        <p></p>
+      </div>
+    </div>
+    <div class="example">
+      <h3>示例</h3>
+      <span id="f_ad2"></span>
+      <h4>描述:</h4>
+      <p> 用&nbsp;callbacks.lock()锁定一个回调列表，以避免进一步的修改列表状态 : </p>
+      <h5>jQuery 代码:</h5>
+      <pre><code>// a sample logging function to be added to a callbacks list
+var foo = function( value ){
+    console.log( 'foo:' + value);
+}
+
+var callbacks = $.Callbacks();
+
+// add the logging function to the callback list
+callbacks.add( foo );
+
+// fire the items on the list, passing an argument
+callbacks.fire( 'hello' );
+// outputs 'foo: hello'
+
+// lock the callbacks list
+callbacks.lock();
+
+// try firing the items again
+callbacks.fire( 'world' );
+
+// as the list was locked, no items
+// were called so 'world' isn't logged</code></pre>
+    </div>
+  </div>
+
+
+
+</div>
+
+<div data-role="footer" data-position="fixed">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- responsive -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-7178664821856375"
+       data-ad-slot="3920198225"
+       data-ad-format="auto"></ins>
+  <script>
+    window.setTimeout(function(){
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    }, 200);
+  </script>
+</div>
+</div>

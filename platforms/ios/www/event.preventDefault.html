@@ -1,0 +1,63 @@
+<div id="content" data-role="page">
+    <div data-role="header" data-position="fixed">
+        <h1>event.preventDefault()</h1>
+        <a href="#home" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse">Left</a>
+    </div><!-- /header -->
+    <div role="main" class="ui-content">
+
+
+
+
+    <div rel="event.preventDefault">
+    <h2><span>返回值:undefined</span>event.preventDefault()</h2>
+    <h3><em>V1.0</em>概述</h3>
+    <div class="desc">
+      <p>阻止默认事件行为的触发。</p>
+      <div class="longdesc">
+        <p>例如，在执行这个方法后，如果点击一个锚点，就不会让浏览器跳转到新的 URL 去了。我们可以用 event.isDefaultPrevented() 来确定这个方法是否(在那个事件对象上)调用过了。</p>
+      </div>
+    </div>
+    <div class="example">
+      <h3>示例</h3>
+      <span id="f_ad2"></span>
+      <h4>描述:</h4>
+      <p>取消点击的默认行为(导航)。。</p>
+      <h5> 代码: </h5>
+      <pre>&lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+  &lt;head&gt;
+    &lt;script src=&quot;http://code.jquery.com/jquery-latest.min.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+      &lt;a href=&quot;http://jquery.com&quot;&gt;default click action is prevented&lt;/a&gt;
+      &lt;div id=&quot;log&quot;&gt;&lt;/div&gt;
+       &lt;script&gt;
+            $(&quot;a&quot;).click(function(event) {
+               event.preventDefault();
+               $('&lt;div/&gt;').append('default ' + event.type + ' prevented').appendTo('#log');
+             });
+       &lt;/script&gt;
+    &lt;/body&gt;
+  &lt;/html&gt;</pre>
+    </div>
+  </div>
+
+
+
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- responsive -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-7178664821856375"
+             data-ad-slot="3920198225"
+             data-ad-format="auto"></ins>
+        <script>
+            window.setTimeout(function(){
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            }, 200);
+        </script>
+    </div>
+</div>
