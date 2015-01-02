@@ -9,7 +9,7 @@ html app using cordova + jquery mobile
 
 Screenshots
 -----------
-![github](https://github.com/shengoo/jqbookcn/blob/master/Screenshot_2014-11-08-01-43-21.png)
-![github](https://github.com/shengoo/jqbookcn/blob/master/Screenshot_2014-11-08-01-43-29.png)
-![github](https://github.com/shengoo/jqbookcn/blob/master/Screenshot_2014-11-08-01-43-43.png)
-![github](https://github.com/shengoo/jqbookcn/blob/master/Screenshot_2014-11-08-01-43-52.png)
+![github](https://github.com/shengoo/jqbookcn/blob/jq-mobile/Screenshot_2014-11-08-01-43-21.png)
+![github](https://github.com/shengoo/jqbookcn/blob/jq-mobile/Screenshot_2014-11-08-01-43-29.png)
+![github](https://github.com/shengoo/jqbookcn/blob/jq-mobile/Screenshot_2014-11-08-01-43-43.png)
+![github](https://github.com/shengoo/jqbookcn/blob/jq-mobile/Screenshot_2014-11-08-01-43-52.png)
